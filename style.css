@@ -1,0 +1,541 @@
+
+ *{
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+}
+#m2{
+  background-color: rgb(48, 236, 201);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.19), 0 17px 50px 0 rgb(48, 236, 201); 
+}
+#m1{
+  background-color: rgb(48, 236, 201);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.19), 0 17px 50px 0 rgb(48, 236, 201); 
+}
+#m3{
+  background-color: rgb(48, 236, 201);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.19), 0 17px 50px 0 rgb(48, 236, 201); 
+}
+#m4{
+  background-color: rgb(48, 236, 201);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.19), 0 17px 50px 0 rgb(48, 236, 201); 
+}
+#sticky
+{
+background-color: rgb(245, 245, 245);
+}
+  
+    #pro
+{
+    color: rgb(6, 5, 5);
+    margin-top: 10px;
+    font-size: 17px;
+    margin-right: -10px ;
+    margin-inline: 1px;
+    text-decoration: none;
+}
+
+  .navbar-toggler{
+    margin-right: -410px;
+}
+.cl{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  font-style: oblique;
+  color: rgb(244, 245, 241);
+  text-decoration: dotted;
+} 
+.container-fluid{
+  padding-bottom: -150px;
+}
+.l1
+{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -19px;
+}
+.lo{
+  margin-top: 20px;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.logo
+{
+margin-left: -9px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(17, 101, 197);
+font-size: 40px ;
+}
+.logoo
+{
+  font-size: 15px; 
+  margin-right: 137px;
+
+}
+#hov:hover{
+  margin-top: 10px;
+background-color: lightsalmon;
+color:darkcyan;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
+  font-size: 17px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+.ld1
+{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ld11{
+  color: #555;
+  font-size: 19px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+.ld2{
+  margin-left: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ld2:hover{
+color: lavenderblush;
+}
+.ldp{
+  color: #555;
+  font-size: 19px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  margin-left: 16px;
+}
+.ldim{
+  height: 150px;
+  width: 250px;
+}
+.vr{
+  margin-left: 0px;
+}
+#hov
+{
+  background-color:rgb(233, 245, 255);
+  border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.div
+{
+border: 30px;
+}
+.card-title
+{
+  font-weight: 100;
+  font-size: 30px;
+}
+.card-text
+{
+  font-size: 15px;
+  font-weight: 500;
+}
+.p2
+{
+  margin-top:50px ;
+  font-size: 40px;
+  font-weight: 700;
+  font-family:'Times New Roman', Times, serif ;
+}
+.p1
+{
+    font-weight: 650;
+    font-size: 40px;
+    text-align: center;
+}
+#ab
+{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  font-size: 17px;
+  
+}
+.symbol
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cadetblue;
+    margin-top: 10px;
+    text-align: center;
+}
+.symbol:hover{
+  color:rgb(140, 163, 25) ;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor:auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .popup .popuptext {
+    font-size: xx-large;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    visibility: hidden;
+    width: 600px;
+    background-color: #555;
+    color: rgb(106, 11, 76);
+    text-align: center;
+    border-radius: 16px;
+    padding: 1px 0;
+    position: absolute;
+    z-index: 17;
+    bottom: 100%;
+    left: 0%;
+    margin-left: -60px;
+  }
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  .popup .show {
+    visibility:inherit;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  .carousel-inner
+  {
+    font-size:100px;
+  margin-right: 300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #img
+  {
+    height: 130px;
+    padding-left: -10px;
+  }
+  .d1
+  {
+    padding-top: 50px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 500px;
+    margin-top: 40px;
+    background-color:rgb(244, 241, 241);
+  }
+  .logoi{
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 50px;
+    text-align: left;
+    width: 50px;
+  }
+  .n 
+  {
+    width: 130px;
+    height: 130px;
+    margin-top: 80px;
+    margin-left: 550px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .learn
+  {
+    background-color: whitesmoke;
+    border-width: none;
+    margin-top: 35px;
+    height: 40px;
+    width: 300px;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-color:whitesmoke ;
+  border-top:none ;
+  border-right: none;
+  border-left: none;
+  }
+  .learn:hover{
+   
+    background-color: rgb(244, 241, 241);
+color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: lighter;
+  font-size: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.pree
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight:500;
+  font-size:23px;
+  margin-left: -100PX;
+}
+.div2
+{
+  height: 500px;
+}
+.ld
+  {
+    background-color: skyblue;
+    border-width: none;
+    margin-top: 35px;
+    font-weight: 900;
+    height: 40px;
+    color: white;
+    width: 200px;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border-color: skyblue;
+   border-width: 3px;
+  }
+.ld:hover{
+   
+  background-color: white;
+color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 20px;
+color: skyblue;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.ft
+  {
+    background-color: white;
+    border-width: none;
+    margin-top: 35px;
+    font-weight: 900;
+    height: 40px;
+    color: skyblue;
+    width: 200px;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border-color: skyblue;
+   border-width: 3px;
+  }
+.ft:hover{
+   
+  background-color: skyblue;
+color:black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bolder;
+font-size: 20px;
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.p3
+{
+  align-items: center;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+}
+.div3
+{
+  margin-top: 60px;
+  height: 500px;
+  background-color:rgb(244, 241, 241);
+}
+.div4
+{
+  margin-top: 50px;
+  height: 250px;
+ 
+}
+.bor{
+  border: 5px solid white;
+}
+.link
+{
+  text-decoration: none;
+  font-weight: 440;
+  color:skyblue;
+  font-size: 20px;
+}
+.link:hover{
+  color: black;
+  text-decoration: underline;
+}
+#la
+{
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 450;
+}
+#la1
+{
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.la2
+{
+  height: 30px;
+  width: 200px;
+}
+.last
+{
+  margin-top: 350px;
+}
+.card1{
+background-color: #555;
+}
+#lc
+{
+  height: 620px;
+background-color: #555;
+color: white;
+}
+#linkl
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.linkla{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px ;
+  margin-left: -75px;
+  color: white;
+}
+.linkla:hover{
+  color: rgb(199, 255, 88);
+  text-decoration:underline;
+}
+.limg{
+  display: flex;
+  margin-inline: 240px;
+  background-color: #555;
+  margin-top: 20px;
+}
+#lastd{
+  background-color: #555;
+  margin-top: -15px;
+  height: 100px;
+}
+#in{
+  height: 35px;
+  width: 35px;
+  margin-left: 110px;
+}
+#hrl{
+  width: 1200px;
+  margin-left: 32px;
+ background-color: whitesmoke;
+  height: 17px;
+  
+}
+.container{
+  background-color: black;
+}
+.di1{
+  background-color: rgb(169, 82, 82);
+}
+.counter-section{
+  margin: 10% auto;
+  color: #fff;
+}
+.icon-box{
+  border: 1px solid white;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+  transform: (rotate(45deg));
+}
+.icon-box .fa{
+  font-size: 40px;
+  margin: 25px auto;
+  color: aqua;
+  transform: (rotate(-45deg));
+
+}
+.counter-box p{
+font-size: 20px;
+}
+.counter-box .counter{
+font-size: 80px;
+}
+
+
+@media all and (min-width:769px) and (max-width:1279)  {
+  
+  .navbar-toggler{
+    margin-right: 100px;
+}
+  #p
+{
+    
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: -75px;
+    margin-inline: 0px;
+}
+#ab
+{
+  margin-top: 10px;
+  font-size: 12px;
+}
+#img
+{
+  height: 100px;
+  padding-left: -30px;
+}
+#hov
+{
+
+    margin-top: 10px;
+    font-size: 12px;
+}
+#sticky
+{
+  width: 968px;
+ display: flex;
+
+}
+.logoi{
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
+}
+.logo
+{
+margin-left: 5px;
+font-size: 30px ;
+}
+.lo{
+  
+  height: 15px;
+  width: 10px;
+  
+}
+#hov:hover{
+  margin-top: 10px;
+  font-size: 10px;
+}
+#hov
+{
+    margin-top: 10px;
+    font-size: 9px;
+}
+.pree
+{
+  font-weight:250;
+  font-size:19px;
+  margin-left: 40PX;
+}
+.n 
+  {
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 420px;
+  }
+}
